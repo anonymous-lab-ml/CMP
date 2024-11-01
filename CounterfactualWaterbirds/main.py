@@ -35,7 +35,7 @@ def set_seed(seed):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Domain Generalization Pair')
+    parser = argparse.ArgumentParser(description='Counterfactual-Waterbirds experiments')
     parser.add_argument('--no_wandb', default=False, action="store_true")
     parser.add_argument('--root_dir', default='data', type=str)
     parser.add_argument('--dataset', default='waterbirds', type=str)
