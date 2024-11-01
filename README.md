@@ -16,4 +16,4 @@ The environment:
 ```
 conda env update -n my_env --file ENV.yaml
 ```
-**Warning:** You may need to adjust the cuda version according to your own server cuda driver version.
+**Warning:** You may need to adjust the cuda version according to your own cuda version.
